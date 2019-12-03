@@ -37,16 +37,15 @@
       <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
   </div>
+</div><div class="example-base">
+		Limited Time Only ! 
+	<span id="clock"></span>
 </div>
-<span id="clock"></span>
-<div class="example-base">  
-	Limited Time Only!  
-	<span id="clock"></span></div>
+
 	<script type="text/javascript">
   // 15 days from now!
   var date = new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
   $('#clock').countdown(date, function(event) {
     $(this).html(event.strftime('%D days %H:%M:%S'));
   });
-</script>
-
+	</script>
