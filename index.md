@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 j'adore manger, sortir et dormir 
 
 ```Ce que je n'aime pas 
-les choux de bruxelles 
+les choux de bruxelles mais j'aime la ville 
 # Header 1
 ## Header 2
 ### Header 3
